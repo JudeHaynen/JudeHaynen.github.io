@@ -95,3 +95,8 @@ h3 {
             text-decoration: none;
             color: #454545;
         }
+        #tiers li {
+            background: #fff;
+            padding: 10px;
+            border-radius: 10px;
+            margin-bottom: 10px;
