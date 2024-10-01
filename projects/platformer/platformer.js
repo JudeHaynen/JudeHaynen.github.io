@@ -33,7 +33,11 @@ $(function () {
     /////////////////////////////////////////////////
     //////////ONLY CHANGE BELOW THIS POINT///////////
     /////////////////////////////////////////////////
-
+    createPlatform(0,150,100,50)
+    createPlatform(200,0,50,200)
+    createPlatform(500,738,1,2)
+    createPlatform(0,740,800,10)
+    createPlatform(500,738,1,2)
     // TODO 1
     // Create platforms
     // You must decide the x position, y position, width, and height of the platforms

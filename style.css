@@ -60,7 +60,7 @@ main {
 h2{
     margin: 0px;
     font-size:200px;
-}
+    background-image: url() ;
 }
 h3 {
     margin: 0px;
@@ -100,3 +100,4 @@ h3 {
             padding: 10px;
             border-radius: 10px;
             margin-bottom: 10px;
+        }
