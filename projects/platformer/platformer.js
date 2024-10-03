@@ -68,6 +68,7 @@ $(function () {
 
     createCannon('left',650,800,75,75)
     createCannon('bottom',1100,900,75,75)
+    createCannon('top',800,1300,75,75)
     // TODO 3
     // Create cannons
     // You must decide the wall you want the cannon on, the position on the wall, and the time between shots in milliseconds
