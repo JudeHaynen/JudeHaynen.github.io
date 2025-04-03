@@ -56,7 +56,7 @@ main {
 #interests {
     border: 4px silver ridge;
     padding: 8px;
-    background-image: url(project-instructions/assests/file.png);
+    margin-left: 5px;
 }
 h2{
     margin: 0px;
