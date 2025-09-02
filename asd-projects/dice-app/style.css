@@ -1,0 +1,7 @@
+#die {
+  height: 300px;
+  width: 300px;
+  background-color: rgb(187, 6, 6); /* Feel free to customize */
+  transform: translate(800px, 375px); 
+  position: absolute;
+}
