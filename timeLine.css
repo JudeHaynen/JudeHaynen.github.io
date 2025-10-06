@@ -1,0 +1,14 @@
+body {
+    background: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    font-family: arial;
+}
+ .square-text-container {
+        width: 100px; /* Example width */
+        height: 100px; /* Equal height for a square */
+        display: flex; /* Optional: Use flexbox for vertical and horizontal centering */
+        justify-content: center; /* Optional: Center content horizontally */
+        align-items: center; /* Optional: Center content vertically */
+        text-align: center; /* Optional: Center text within the container */
+    }
