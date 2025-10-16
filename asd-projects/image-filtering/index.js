@@ -20,7 +20,7 @@ function resetAndRender() {
 // all of your apply functions
 function applyAndRender() {
   // Multiple TODOs: Call your apply function(s) here
-applyFilterNoBackground(grayscale);
+applyFilterNoBackground(inverse);
 
   // do not change the below line of code
   render($("#display"), image);
@@ -102,4 +102,9 @@ function grayscale(pixelArray) {
   pixelArray[RED] = avg;
   pixelArray[GREEN] = avg;
   pixelArray[BLUE] = avg;
+}
+function inverse(pixelArray) {
+  pixelArray[RED] = 255 - pixelArray[RED];
+  pixelArray[BLUE] = 255 - pixelArray[BLUE];
+  pixelArray[GREEN] = 255 - pixelArray[GREEN];
 }
